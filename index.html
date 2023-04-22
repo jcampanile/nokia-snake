@@ -9,6 +9,7 @@
 </head>
 
 <body id="body" onload="showscore(), showhigh(), handle(), showspeed()" class="body">
+  <div style="flex-grow: 1; height: 100vh;"></div>
   <div id="container" class="container">
     <div id="fixedborder">
       <div id="scoreborder">
@@ -53,16 +54,21 @@
       </div>
         <div id="movetoprow">
           <div id="movebtn" onpointerdown="moveup()"></div>
+          <div id="movebtn" onpointerdown="moveupleft()" style="margin: 0; float: left"></div>
+          <div id="movebtn" onpointerdown="moveupright()" style="margin: 0; float: right"></div>
         </div>
         <div id="movemiddlerow">
           <div id="movebtn" onpointerdown="moveleft()" style="margin: 0; float: left"></div>
-        <div id="movebtn" onpointerdown="moveright()"style="margin: 0; float: right"></div>
+          <div id="movebtn" onpointerdown="moveright()" style="margin: 0; float: right"></div>
         </div>
         <div id="movebottomrow">
           <div id="movebtn" onpointerdown="movedown()"></div>
+          <div id="movebtn" onpointerdown="movedownleft()" style="margin: 0; float: left"></div>
+          <div id="movebtn" onpointerdown="movedownright()" style="margin: 0; float: right"></div>
         </div>
     </div>
   </div>
+  <div style="flex-grow: 1; height: 100vh;"></div>
   <script src="script.js"></script>
 </body>
 
