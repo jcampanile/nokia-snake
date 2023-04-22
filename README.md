@@ -7,7 +7,7 @@ snake game based on nokia snake
 <li>like snake from older nokia phones</li>
 </ul>
 <h2>note:</h2>
-I don't know how to make it so the screen dosn't zoom on double tap.
+I don't know how to make it so the screen dosn't zoom on double tap for mobile.
 <h2>credits</h2>
 <p>snake movement, growth logic and apple logic from (https://iqcode.com/code/html/snake-game-html-code)</p>
 <p>Nokia phone image from app developer "dsd 164 B.V" on Iphone App Store.</p>
