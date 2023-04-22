@@ -148,6 +148,46 @@ function movedown() {
  }
 }
 
+function moveupleft() {
+ if (snake.dy === 0) {
+  snake.dy = -grid;
+  snake.dx = 0;
+ } else {
+  snake.dx = -grid;
+  snake.dy = 0;
+ }
+}
+
+function moveupright() {
+ if (snake.dy === 0) {
+  snake.dy = -grid;
+  snake.dx = 0;
+ } else {
+  snake.dx = grid;
+  snake.dy = 0;
+ }
+}
+
+function movedownleft() {
+ if (snake.dy === 0) {
+  snake.dy = grid;
+  snake.dx = 0;
+ } else {
+  snake.dx = -grid;
+  snake.dy = 0;
+ }
+}
+
+function movedownright() {
+ if (snake.dy === 0) {
+  snake.dy = grid;
+  snake.dx = 0;
+ } else {
+  snake.dx = grid;
+  snake.dy = 0;
+ }
+}
+
 //from this comment to next comment, code for snake movement, speed and apple logic based on (https://iqcode.com/code/html/snake-game-html-code)
 function loop() {
  requestAnimationFrame(loop);
