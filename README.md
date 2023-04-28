@@ -1,5 +1,5 @@
-# snake
-snake game based on nokia snake
+# nokia snake
+snake game made to look like nokia snake
 <h2>features</h2>
 <ul>
 <li>pc and mobile freindly</li>
