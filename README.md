@@ -14,4 +14,4 @@ I don't know how to make it so the screen dosn't zoom on double tap for mobile.
 <h2>credits</h2>
 <p>Nokia phone image from app developer "dsd 164 B.V" on Iphone App Store.</p>
 <h2>notice</h2>
-This project by jcampanile is lisensed under the MIT license.
+This project by jcampanile is licensed under the MIT license.
